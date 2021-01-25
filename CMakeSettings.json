@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "x64-Rel",
+            "generator": "Ninja",
+            "configurationType": "Release",
+            "inheritEnvironments": [ "msvc_x64" ],
+            "variables": []
+        },
+        {
+            "name": "x64-Rel-Clang",
+            "generator": "Ninja",
+            "configurationType": "Release",
+            "inheritEnvironments": [ "windows-clang-x64" ],
+            "variables": []
+        }
+    ]
+}
